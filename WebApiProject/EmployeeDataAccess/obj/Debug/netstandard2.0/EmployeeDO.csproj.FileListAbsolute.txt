@@ -1,0 +1,11 @@
+D:\net sol\WebApiProject\EmployeeDataAccess\bin\Debug\netstandard2.0\EmployeeDO.deps.json
+D:\net sol\WebApiProject\EmployeeDataAccess\bin\Debug\netstandard2.0\EmployeeDO.dll
+D:\net sol\WebApiProject\EmployeeDataAccess\bin\Debug\netstandard2.0\EmployeeDO.pdb
+D:\net sol\WebApiProject\EmployeeDataAccess\bin\Debug\netstandard2.0\EmployeeEntities.dll
+D:\net sol\WebApiProject\EmployeeDataAccess\bin\Debug\netstandard2.0\EmployeeEntities.pdb
+D:\net sol\WebApiProject\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDO.csprojAssemblyReference.cache
+D:\net sol\WebApiProject\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDO.AssemblyInfoInputs.cache
+D:\net sol\WebApiProject\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDO.AssemblyInfo.cs
+D:\net sol\WebApiProject\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDO.csproj.CopyComplete
+D:\net sol\WebApiProject\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDO.dll
+D:\net sol\WebApiProject\EmployeeDataAccess\obj\Debug\netstandard2.0\EmployeeDO.pdb
