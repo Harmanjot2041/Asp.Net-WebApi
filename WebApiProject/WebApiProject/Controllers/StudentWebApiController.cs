@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using EmployeeBO;
 using EmployeeEntities.Entities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApiProject.Controllers
 {
@@ -18,12 +19,9 @@ namespace WebApiProject.Controllers
         {
             _employeeComponent = employeeComponent;
         }
-        public IActionResult Index()
-        {
-            return Ok();
-        }
-
+        
         [HttpGet]
+        [Authorize(Roles ="Admin")]
         public IActionResult GetEmployee()
         {
             var EmployeeList = _employeeComponent.GetEmployees();

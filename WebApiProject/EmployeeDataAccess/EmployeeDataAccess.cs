@@ -1,4 +1,5 @@
-﻿using EmployeeEntities.Entities;
+﻿using EmployeeEntities.Custom;
+using EmployeeEntities.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,11 @@ namespace EmployeeDO
         public List<Employee> GetEmployees()
         {
             return _employeeDbContext.Employee.ToList();
+        }
+
+        public List<LoginDetails> GetUsers()
+        {
+            return _employeeDbContext.LoginDetails.ToList();
         }
     }
 }

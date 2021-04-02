@@ -20,10 +20,15 @@ namespace EmployeeEntities.Entities
         }
 
         public virtual DbSet<Employee> Employee { get; set; }
+        public virtual DbSet<LoginDetails> LoginDetails { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Database=EmployeeData;User ID=Harman;Password=Happy@123;");
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -43,6 +48,33 @@ namespace EmployeeEntities.Entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.EmployeeName)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<LoginDetails>(entity =>
+            {
+                entity.HasKey(e => e.UserId);
+
+                entity.Property(e => e.UserId).HasColumnName("UserID");
+
+                entity.Property(e => e.DisplayName)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Password)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.RoleName)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.UserName)
                     .IsRequired()
                     .HasMaxLength(50)
                     .IsUnicode(false);

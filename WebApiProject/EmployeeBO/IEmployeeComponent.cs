@@ -10,5 +10,7 @@ namespace EmployeeBO
         List<Employee> GetEmployees();
         int AddEmployee(Employee model);
         int DeleteEmployee(int id);
+
+        List<LoginDetails> GetUsers();
     }
 }

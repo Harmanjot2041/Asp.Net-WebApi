@@ -1,8 +1,8 @@
 D:\net sol\WebApiProject\EmployeeEntities\bin\Debug\netstandard2.0\EmployeeEntities.deps.json
 D:\net sol\WebApiProject\EmployeeEntities\bin\Debug\netstandard2.0\EmployeeEntities.dll
+D:\net sol\WebApiProject\EmployeeEntities\bin\Debug\netstandard2.0\EmployeeEntities.pdb
 D:\net sol\WebApiProject\EmployeeEntities\obj\Debug\netstandard2.0\EmployeeEntities.csprojAssemblyReference.cache
 D:\net sol\WebApiProject\EmployeeEntities\obj\Debug\netstandard2.0\EmployeeEntities.AssemblyInfoInputs.cache
 D:\net sol\WebApiProject\EmployeeEntities\obj\Debug\netstandard2.0\EmployeeEntities.AssemblyInfo.cs
-D:\net sol\WebApiProject\EmployeeEntities\bin\Debug\netstandard2.0\EmployeeEntities.pdb
 D:\net sol\WebApiProject\EmployeeEntities\obj\Debug\netstandard2.0\EmployeeEntities.dll
 D:\net sol\WebApiProject\EmployeeEntities\obj\Debug\netstandard2.0\EmployeeEntities.pdb

@@ -29,5 +29,9 @@ namespace EmployeeBO
             return _employeeDataAccess.GetEmployees();
         }
 
+        public List<LoginDetails> GetUsers()
+        {
+            return _employeeDataAccess.GetUsers();
+        }
     }
 }
